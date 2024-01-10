@@ -10,6 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "@fast-styles/react": "0.2.9",
     "@react-navigation/native": "6.1.9",
     "@react-navigation/native-stack": "6.9.17",
     "commitizen": "4.3.0",
@@ -25,6 +26,7 @@
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
+    "@fast-styles/babel-plugin": "0.2.3",
     "@react-native/babel-preset": "0.73.19",
     "@react-native/eslint-config": "0.73.2",
     "@react-native/metro-config": "0.73.3",

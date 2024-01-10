@@ -1254,6 +1254,18 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.56.0.tgz#ef20350fec605a7f7035a01764731b2de0f3782b"
   integrity sha512-gMsVel9D7f2HLkBma9VbtzZRehRogVRfbr++f06nL2vnCGCNlzOD+/MUov/F4p8myyAHspEhVobgjpX64q5m6A==
 
+"@fast-styles/babel-plugin@0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@fast-styles/babel-plugin/-/babel-plugin-0.2.3.tgz#ef1077364e72ad02c2ec8e827ac37f1fc8f10f82"
+  integrity sha512-3ZF2vd7b1MSd3Hx/7/1X6w/qr5BL9Q1J2a/umk27UPIEjxrpaZJHucQQHMLDHXyEKGan4wDCHMcEFodytaZmRg==
+
+"@fast-styles/react@0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@fast-styles/react/-/react-0.2.9.tgz#3953990efa2120f7b2c7c2b807d643ce81c319d9"
+  integrity sha512-M2MOs2McrXt4dOnpDz4jU8wf/MDcdt4gHPEL6EHE3BzLG9AP/ySYaWHQjSLSWhcgz4gmDJGxo7nlJWsawVUrdw==
+  dependencies:
+    lodash.merge "^4.6.2"
+
 "@hapi/hoek@^9.0.0":
   version "9.3.0"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.3.0.tgz#8368869dcb735be2e7f5cb7647de78e167a251fb"
