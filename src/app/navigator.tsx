@@ -5,7 +5,7 @@ import {
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {TestScreen} from '../screens/TestScreen.tsx';
 import React from 'react';
-import {SentryRoutingInstrumentation} from '../shared/sentry';
+import {SentryRoutingInstrumentation} from '../shared/lib/sentry';
 
 const TestStack = createNativeStackNavigator();
 

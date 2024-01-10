@@ -2,8 +2,15 @@
 /// <reference types="reactotron-apisauce" />
 
 if (__DEV__) {
-  const Reactotron = require('reactotron-react-native');
-  const apisaucePlugin = require('reactotron-apisauce');
+  const {
+    default: Reactotron,
+    trackGlobalErrors,
+  } = require('reactotron-react-native');
+  const {default: apisaucePlugin} = require('reactotron-apisauce');
 
-  Reactotron.configure({}).useReactNative().use(apisaucePlugin()).connect();
+  Reactotron.configure()
+    .useReactNative()
+    .use(trackGlobalErrors())
+    .use(apisaucePlugin())
+    .connect();
 }
