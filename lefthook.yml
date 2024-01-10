@@ -1,0 +1,7 @@
+colors: true
+
+prepare-commit-msg:
+  commands:
+    commitizen:
+      interactive: true
+      run: LEFTHOOK=0 yarn cz
