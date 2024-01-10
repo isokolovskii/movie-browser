@@ -1,4 +1,9 @@
-import Reactotron from 'reactotron-react-native';
-import apisaucePlugin from 'reactotron-apisauce';
+/// <reference types="reactotron-react-native" />
+/// <reference types="reactotron-apisauce" />
 
-Reactotron.configure({}).useReactNative().use(apisaucePlugin()).connect();
+if (__DEV__) {
+  const Reactotron = require('reactotron-react-native');
+  const apisaucePlugin = require('reactotron-apisauce');
+
+  Reactotron.configure({}).useReactNative().use(apisaucePlugin()).connect();
+}
