@@ -1,13 +1,17 @@
-import {NavigationContainer} from '@react-navigation/native';
+import {
+  NavigationContainer,
+  type NavigationContainerRef,
+} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {TestScreen} from '../screens/TestScreen.tsx';
 import React from 'react';
-import {SentryRoutingInstrumentation} from './sentry.ts';
+import {SentryRoutingInstrumentation} from '../shared/sentry';
 
 const TestStack = createNativeStackNavigator();
 
 export const Navigator = () => {
-  const navigationRef = React.useRef<typeof NavigationContainer>();
+  const navigationRef =
+    React.useRef<NavigationContainerRef<ReactNavigation.RootParamList>>(null);
 
   const onReady = () => {
     SentryRoutingInstrumentation.registerNavigationContainer(navigationRef);
