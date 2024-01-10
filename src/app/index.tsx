@@ -1,5 +1,6 @@
 import './sentry.ts';
 import '../shared/lib/wdyr';
+import '../shared/lib/reactotron';
 
 import React from 'react';
 import {Navigator} from './navigator.tsx';
