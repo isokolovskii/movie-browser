@@ -1,4 +1,5 @@
 import './sentry.ts';
+import './analytics.ts';
 import '../shared/lib/wdyr';
 import '../shared/lib/reactotron';
 
