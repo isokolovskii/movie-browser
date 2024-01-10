@@ -13,6 +13,7 @@
     "@fast-styles/react": "0.2.9",
     "@react-navigation/native": "6.1.9",
     "@react-navigation/native-stack": "6.9.17",
+    "@sentry/react-native": "5.15.2",
     "commitizen": "4.3.0",
     "lefthook": "1.5.5",
     "react": "18.2.0",
