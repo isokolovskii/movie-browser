@@ -15,6 +15,12 @@ pre-commit:
     audit:
       glob: 'package.json'
       run: yarn dependencies:audit
+    licenses:
+      glob: 'package.json'
+      run: yarn licenses:check
+    licences-report:
+      run: yarn licenses:generate-report
+      stage_fixed: true
 
 post-commit:
   parallel: true
