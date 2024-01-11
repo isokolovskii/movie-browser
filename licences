@@ -7856,13 +7856,20 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/prettier-linter-helpers
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/prettier-linter-helpers
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/prettier-linter-helpers/LICENSE.md
-├─ prettier@3.1.1
+├─ prettier@2.8.8
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/prettier/prettier
 │  ├─ publisher: James Long
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/prettier
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/prettier
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/prettier/LICENSE
+├─ prettier@3.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/prettier/prettier
+│  ├─ publisher: James Long
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/react-native-bootsplash/node_modules/prettier
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/react-native-bootsplash/node_modules/prettier
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/react-native-bootsplash/node_modules/prettier/LICENSE
 ├─ pretty-format@26.6.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/facebook/jest
