@@ -6,6 +6,11 @@ prepare-commit-msg:
       interactive: true
       run: LEFTHOOK=0 yarn cz --hook
 
+commit-msg:
+  commands:
+    commitlint:
+      run: yarn commitlint --edit
+
 pre-commit:
   parallel: true
   commands:

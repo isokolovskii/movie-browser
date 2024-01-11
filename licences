@@ -1056,6 +1056,22 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@colors/colors
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@colors/colors
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@colors/colors/LICENSE
+├─ @commitlint/cli@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/cli
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/cli
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/cli/license.md
+├─ @commitlint/config-conventional@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/config-conventional
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/config-conventional
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/config-conventional/license.md
 ├─ @commitlint/config-validator@18.4.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/conventional-changelog/commitlint
@@ -1064,6 +1080,14 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/config-validator
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/config-validator
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/config-validator/license.md
+├─ @commitlint/ensure@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/ensure
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/ensure
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/ensure/license.md
 ├─ @commitlint/execute-rule@18.4.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/conventional-changelog/commitlint
@@ -1072,6 +1096,30 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/execute-rule
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/execute-rule
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/execute-rule/license.md
+├─ @commitlint/format@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/format
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/format
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/format/license.md
+├─ @commitlint/is-ignored@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/is-ignored
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/is-ignored
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/is-ignored/license.md
+├─ @commitlint/lint@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/lint
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/lint
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/lint/license.md
 ├─ @commitlint/load@18.4.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/conventional-changelog/commitlint
@@ -1080,6 +1128,30 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/load
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/load
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/load/license.md
+├─ @commitlint/message@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/message
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/message
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/message/license.md
+├─ @commitlint/parse@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/parse
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/parse
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/parse/license.md
+├─ @commitlint/read@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/read
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/read
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/read/license.md
 ├─ @commitlint/resolve-extends@18.4.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/conventional-changelog/commitlint
@@ -1088,6 +1160,30 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/resolve-extends
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/resolve-extends
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/resolve-extends/license.md
+├─ @commitlint/rules@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/rules
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/rules
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/rules/license.md
+├─ @commitlint/to-lines@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/to-lines
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/to-lines
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/to-lines/license.md
+├─ @commitlint/top-level@18.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/commitlint
+│  ├─ publisher: Mario Nebl
+│  ├─ email: hello@herebecode.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/top-level
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/top-level
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@commitlint/top-level/license.md
 ├─ @commitlint/types@18.4.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/conventional-changelog/commitlint
@@ -2005,12 +2101,24 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@types/json-schema
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@types/json-schema
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@types/json-schema/LICENSE
+├─ @types/minimist@1.2.5
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@types/minimist
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@types/minimist
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@types/minimist/LICENSE
 ├─ @types/node@20.10.8
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@types/node
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@types/node
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@types/node/LICENSE
+├─ @types/normalize-package-data@2.4.4
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@types/normalize-package-data
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@types/normalize-package-data
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@types/normalize-package-data/LICENSE
 ├─ @types/prop-types@15.7.11
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -2138,6 +2246,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@yarnpkg/lockfile
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@yarnpkg/lockfile
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@yarnpkg/lockfile/README.md
+├─ JSONStream@1.3.5
+│  ├─ licenses: (MIT OR Apache-2.0)
+│  ├─ repository: https://github.com/dominictarr/JSONStream
+│  ├─ publisher: Dominic Tarr
+│  ├─ email: dominic.tarr@gmail.com
+│  ├─ url: http://bit.ly/dominictarr
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/JSONStream
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/JSONStream
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/JSONStream/LICENSE.APACHE2
 ├─ abbrev@1.1.1
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/isaacs/abbrev-js
@@ -2401,6 +2518,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/array-find-index
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/array-find-index
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/array-find-index/license
+├─ array-ify@1.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stevemao/array-ify
+│  ├─ publisher: Steve Mao
+│  ├─ email: maochenyan@gmail.com
+│  ├─ url: https://github.com/stevemao
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/array-ify
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/array-ify
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/array-ify/README.md
 ├─ array-includes@3.1.7
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/es-shims/array-includes
@@ -2453,6 +2579,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/arraybuffer.prototype.slice
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/arraybuffer.prototype.slice
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/arraybuffer.prototype.slice/LICENSE
+├─ arrify@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/arrify
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/arrify
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/arrify
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/arrify/license
 ├─ asap@2.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/kriskowal/asap
@@ -2812,6 +2947,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/callsites
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/callsites
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/callsites/license
+├─ camelcase-keys@6.2.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/camelcase-keys
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/camelcase-keys
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/camelcase-keys
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/camelcase-keys/license
 ├─ camelcase@5.3.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/camelcase
@@ -3164,6 +3308,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/commondir
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/commondir
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/commondir/LICENSE
+├─ compare-func@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/stevemao/compare-func
+│  ├─ publisher: Steve Mao
+│  ├─ email: maochenyan@gmail.com
+│  ├─ url: https://github.com/stevemao
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/compare-func
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/compare-func
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/compare-func/LICENSE
 ├─ compressible@2.0.18
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jshttp/compressible
@@ -3221,6 +3374,20 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/console-control-strings
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/console-control-strings
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/console-control-strings/LICENSE
+├─ conventional-changelog-angular@7.0.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/conventional-changelog/conventional-changelog
+│  ├─ publisher: Steve Mao
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-changelog-angular
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-changelog-angular
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-changelog-angular/LICENSE.md
+├─ conventional-changelog-conventionalcommits@7.0.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/conventional-changelog/conventional-changelog
+│  ├─ publisher: Ben Coe
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-changelog-conventionalcommits
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-changelog-conventionalcommits
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-changelog-conventionalcommits/LICENSE.md
 ├─ conventional-commit-types@3.0.0
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/commitizen/conventional-commit-types
@@ -3228,6 +3395,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commit-types
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commit-types
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commit-types/README.md
+├─ conventional-commits-parser@5.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/conventional-changelog
+│  ├─ publisher: Steve Mao
+│  ├─ email: maochenyan@gmail.com
+│  ├─ url: https://github.com/stevemao
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser/LICENSE.md
 ├─ convert-source-map@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/thlorenz/convert-source-map
@@ -3344,6 +3520,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/cz-conventional-changelog
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/cz-conventional-changelog
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/cz-conventional-changelog/LICENSE
+├─ dargs@7.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/dargs
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/dargs
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/dargs
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/dargs/license
 ├─ dayjs@1.11.10
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/iamkun/dayjs
@@ -3383,6 +3568,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/debuglog
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/debuglog
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/debuglog/LICENSE
+├─ decamelize-keys@1.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/decamelize-keys
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: http://sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/decamelize-keys
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/decamelize-keys
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/decamelize-keys/license
 ├─ decamelize@1.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/decamelize
@@ -3629,15 +3823,24 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/domutils
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/domutils
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/domutils/LICENSE
+├─ dot-prop@5.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/dot-prop
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/dot-prop
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/dot-prop
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/dot-prop/license
 ├─ dot-prop@6.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/dot-prop
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: https://sindresorhus.com
-│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/dot-prop
-│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/dot-prop
-│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/dot-prop/license
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/configstore/node_modules/dot-prop
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/configstore/node_modules/dot-prop
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/configstore/node_modules/dot-prop/license
 ├─ eastasianwidth@0.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/komagata/eastasianwidth
@@ -4549,6 +4752,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/get-symbol-description
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/get-symbol-description
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/get-symbol-description/LICENSE
+├─ git-raw-commits@2.0.11
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/conventional-changelog/conventional-changelog
+│  ├─ publisher: Steve Mao
+│  ├─ email: maochenyan@gmail.com
+│  ├─ url: https://github.com/stevemao
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/git-raw-commits
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/git-raw-commits
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/git-raw-commits/LICENSE.md
 ├─ github-from-package@0.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/substack/github-from-package
@@ -4609,18 +4821,18 @@
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: sindresorhus.com
-│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/resolve-global/node_modules/global-dirs
-│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/resolve-global/node_modules/global-dirs
-│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/resolve-global/node_modules/global-dirs/license
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs/license
 ├─ global-dirs@3.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/global-dirs
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: https://sindresorhus.com
-│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs
-│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs
-│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs/license
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/is-installed-globally/node_modules/global-dirs
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/is-installed-globally/node_modules/global-dirs
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/is-installed-globally/node_modules/global-dirs/license
 ├─ global-modules@1.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jonschlinkert/global-modules
@@ -4707,6 +4919,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/graphemer
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/graphemer
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/graphemer/LICENSE
+├─ hard-rejection@2.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/hard-rejection
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/hard-rejection
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/hard-rejection
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/hard-rejection/license
 ├─ has-bigints@1.0.2
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/ljharb/has-bigints
@@ -4865,6 +5086,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/normalize-package-data/node_modules/hosted-git-info
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/normalize-package-data/node_modules/hosted-git-info
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/normalize-package-data/node_modules/hosted-git-info/LICENSE
+├─ hosted-git-info@4.1.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/npm/hosted-git-info
+│  ├─ publisher: Rebecca Turner
+│  ├─ email: me@re-becca.org
+│  ├─ url: http://re-becca.org
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/hosted-git-info
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/hosted-git-info
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/hosted-git-info/LICENSE
 ├─ hosted-git-info@5.2.1
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/hosted-git-info
@@ -5101,9 +5331,9 @@
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
 │  ├─ url: http://blog.izs.me/
-│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs/node_modules/ini
-│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs/node_modules/ini
-│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/global-dirs/node_modules/ini/LICENSE
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/is-installed-globally/node_modules/ini
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/is-installed-globally/node_modules/ini
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/is-installed-globally/node_modules/ini/LICENSE
 ├─ ini@4.1.1
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/npm/ini
@@ -5403,6 +5633,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/is-path-inside
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/is-path-inside
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/is-path-inside/license
+├─ is-plain-obj@1.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-plain-obj
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/is-plain-obj
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/is-plain-obj
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/is-plain-obj/license
 ├─ is-plain-object@2.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jonschlinkert/is-plain-object
@@ -5461,6 +5700,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/is-symbol
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/is-symbol
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/is-symbol/LICENSE
+├─ is-text-path@2.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/is-text-path
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/is-text-path
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/is-text-path
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/is-text-path/license
 ├─ is-typed-array@1.1.12
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/inspect-js/is-typed-array
@@ -6159,6 +6407,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@react-native-community/cli-tools/node_modules/locate-path
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@react-native-community/cli-tools/node_modules/locate-path
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@react-native-community/cli-tools/node_modules/locate-path/license
+├─ lodash.camelcase@4.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.camelcase
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.camelcase
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.camelcase/LICENSE
 ├─ lodash.debounce@4.0.8
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -6168,6 +6425,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.debounce
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.debounce
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.debounce/LICENSE
+├─ lodash.isfunction@3.0.9
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.isfunction
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.isfunction
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.isfunction/LICENSE
 ├─ lodash.isplainobject@4.0.6
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -6177,6 +6443,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.isplainobject
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.isplainobject
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.isplainobject/LICENSE
+├─ lodash.kebabcase@4.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.kebabcase
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.kebabcase
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.kebabcase/LICENSE
 ├─ lodash.map@4.6.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -6202,6 +6477,24 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.mergewith
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.mergewith
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.mergewith/LICENSE
+├─ lodash.snakecase@4.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.snakecase
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.snakecase
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.snakecase/LICENSE
+├─ lodash.startcase@4.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.startcase
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.startcase
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.startcase/LICENSE
 ├─ lodash.throttle@4.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -6220,6 +6513,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.uniq
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.uniq
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.uniq/LICENSE
+├─ lodash.upperfirst@4.3.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/lodash/lodash
+│  ├─ publisher: John-David Dalton
+│  ├─ email: john.david.dalton@gmail.com
+│  ├─ url: http://allyoucanleet.com/
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.upperfirst
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.upperfirst
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/lodash.upperfirst/LICENSE
 ├─ lodash@4.17.21
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/lodash/lodash
@@ -6342,6 +6644,24 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/makeerror
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/makeerror
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/makeerror/license
+├─ map-obj@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/map-obj
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/map-obj
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/map-obj
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/map-obj/license
+├─ map-obj@4.3.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/map-obj
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/camelcase-keys/node_modules/map-obj
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/camelcase-keys/node_modules/map-obj
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/camelcase-keys/node_modules/map-obj/license
 ├─ marky@1.2.5
 │  ├─ licenses: Apache-2.0
 │  ├─ repository: https://github.com/nolanlawson/marky
@@ -6365,6 +6685,24 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/memoize-one
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/memoize-one
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/memoize-one/LICENSE
+├─ meow@12.1.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/meow
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser/node_modules/meow
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser/node_modules/meow
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser/node_modules/meow/license
+├─ meow@8.1.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/meow
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/meow
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/meow
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/meow/license
 ├─ merge-stream@2.0.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/grncdr/merge-stream
@@ -6527,6 +6865,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/cacheable-request/node_modules/mimic-response
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/cacheable-request/node_modules/mimic-response
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/cacheable-request/node_modules/mimic-response/license
+├─ min-indent@1.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/thejameskyle/min-indent
+│  ├─ publisher: James Kyle
+│  ├─ email: me@thejameskyle.com
+│  ├─ url: thejameskyle.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/min-indent
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/min-indent
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/min-indent/license
 ├─ minimatch@3.1.2
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/isaacs/minimatch
@@ -6551,9 +6898,17 @@
 │  ├─ publisher: Isaac Z. Schlueter
 │  ├─ email: i@izs.me
 │  ├─ url: http://blog.izs.me
-│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/cacache/node_modules/minimatch
-│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/cacache/node_modules/minimatch
-│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/cacache/node_modules/minimatch/LICENSE
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/@tufjs/models/node_modules/minimatch
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/@tufjs/models/node_modules/minimatch
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/@tufjs/models/node_modules/minimatch/LICENSE
+├─ minimist-options@4.1.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/vadimdemedes/minimist-options
+│  ├─ publisher: Vadim Demedes
+│  ├─ email: vdemedes@gmail.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/minimist-options
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/minimist-options
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/minimist-options/license
 ├─ minimist@1.2.7
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/minimistjs/minimist
@@ -6888,6 +7243,14 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/normalize-package-data
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/normalize-package-data
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/normalize-package-data/LICENSE
+├─ normalize-package-data@3.0.3
+│  ├─ licenses: BSD-2-Clause
+│  ├─ repository: https://github.com/npm/normalize-package-data
+│  ├─ publisher: Meryn Stol
+│  ├─ email: merynstol@gmail.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/normalize-package-data
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/normalize-package-data
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/normalize-package-data/LICENSE
 ├─ normalize-package-data@5.0.0
 │  ├─ licenses: BSD-2-Clause
 │  ├─ repository: https://github.com/npm/normalize-package-data
@@ -7680,15 +8043,24 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/queue
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/queue
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/queue/LICENSE
+├─ quick-lru@4.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/quick-lru
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/quick-lru
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/quick-lru
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/quick-lru/license
 ├─ quick-lru@5.1.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/quick-lru
 │  ├─ publisher: Sindre Sorhus
 │  ├─ email: sindresorhus@gmail.com
 │  ├─ url: https://sindresorhus.com
-│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/quick-lru
-│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/quick-lru
-│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/quick-lru/license
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/http2-wrapper/node_modules/quick-lru
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/http2-wrapper/node_modules/quick-lru
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/http2-wrapper/node_modules/quick-lru/license
 ├─ range-parser@1.2.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/jshttp/range-parser
@@ -7968,6 +8340,24 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/pacote/node_modules/read-package-json
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/pacote/node_modules/read-package-json
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/pacote/node_modules/read-package-json/LICENSE
+├─ read-pkg-up@7.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/read-pkg-up
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg-up
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg-up
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg-up/license
+├─ read-pkg@5.2.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/read-pkg
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg/license
 ├─ readable-stream@2.3.8
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/nodejs/readable-stream
@@ -8012,6 +8402,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/recyclerlistview
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/recyclerlistview
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/recyclerlistview/LICENSE.md
+├─ redent@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/redent
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/redent
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/redent
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/redent/license
 ├─ reflect.getprototypeof@1.0.4
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/es-shims/Reflect.getPrototypeOf
@@ -8755,6 +9154,22 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/split-on-first
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/split-on-first
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/split-on-first/license
+├─ split2@3.2.2
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/mcollina/split2
+│  ├─ publisher: Matteo Collina
+│  ├─ email: hello@matteocollina.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/split2
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/split2
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/split2/LICENSE
+├─ split2@4.2.0
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/mcollina/split2
+│  ├─ publisher: Matteo Collina
+│  ├─ email: hello@matteocollina.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser/node_modules/split2
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser/node_modules/split2
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/conventional-commits-parser/node_modules/split2/LICENSE
 ├─ sprintf-js@1.0.3
 │  ├─ licenses: BSD-3-Clause
 │  ├─ repository: https://github.com/alexei/sprintf.js
@@ -8982,6 +9397,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/strip-final-newline
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/strip-final-newline
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/strip-final-newline/license
+├─ strip-indent@3.0.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/strip-indent
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/strip-indent
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/strip-indent
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/strip-indent/license
 ├─ strip-json-comments@2.0.1
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/sindresorhus/strip-json-comments
@@ -9137,6 +9561,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/test-exclude
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/test-exclude
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/test-exclude/LICENSE.txt
+├─ text-extensions@2.4.0
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/text-extensions
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/text-extensions
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/text-extensions
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/text-extensions/license
 ├─ text-table@0.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/substack/text-table
@@ -9162,6 +9595,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/through2
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/through2
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/through2/LICENSE.md
+├─ through2@4.0.2
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/rvagg/through2
+│  ├─ publisher: Rod Vagg
+│  ├─ email: r@va.gg
+│  ├─ url: https://github.com/rvagg
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/git-raw-commits/node_modules/through2
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/git-raw-commits/node_modules/through2
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/git-raw-commits/node_modules/through2/LICENSE.md
 ├─ through@2.3.8
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/dominictarr/through
@@ -9228,6 +9670,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/treeify
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/treeify
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/treeify/LICENSE
+├─ trim-newlines@3.0.1
+│  ├─ licenses: MIT
+│  ├─ repository: https://github.com/sindresorhus/trim-newlines
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/trim-newlines
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/trim-newlines
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/trim-newlines/license
 ├─ ts-dedent@2.2.0
 │  ├─ licenses: MIT
 │  ├─ repository: https://github.com/tamino-martinius/node-ts-dedent
@@ -9305,6 +9756,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/type-detect
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/type-detect
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/type-detect/LICENSE
+├─ type-fest@0.18.1
+│  ├─ licenses: (MIT OR CC0-1.0)
+│  ├─ repository: https://github.com/sindresorhus/type-fest
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: https://sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/type-fest
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/type-fest
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/type-fest/license
 ├─ type-fest@0.20.2
 │  ├─ licenses: (MIT OR CC0-1.0)
 │  ├─ repository: https://github.com/sindresorhus/type-fest
@@ -9323,6 +9783,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/ansi-escapes/node_modules/type-fest
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/ansi-escapes/node_modules/type-fest
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/ansi-escapes/node_modules/type-fest/license
+├─ type-fest@0.6.0
+│  ├─ licenses: (MIT OR CC0-1.0)
+│  ├─ repository: https://github.com/sindresorhus/type-fest
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg/node_modules/type-fest
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg/node_modules/type-fest
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg/node_modules/type-fest/license
 ├─ type-fest@0.7.1
 │  ├─ licenses: (MIT OR CC0-1.0)
 │  ├─ repository: https://github.com/sindresorhus/type-fest
@@ -9332,6 +9801,15 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/stacktrace-parser/node_modules/type-fest
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/stacktrace-parser/node_modules/type-fest
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/stacktrace-parser/node_modules/type-fest/license
+├─ type-fest@0.8.1
+│  ├─ licenses: (MIT OR CC0-1.0)
+│  ├─ repository: https://github.com/sindresorhus/type-fest
+│  ├─ publisher: Sindre Sorhus
+│  ├─ email: sindresorhus@gmail.com
+│  ├─ url: sindresorhus.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg-up/node_modules/type-fest
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg-up/node_modules/type-fest
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/read-pkg-up/node_modules/type-fest/license
 ├─ type-fest@1.4.0
 │  ├─ licenses: (MIT OR CC0-1.0)
 │  ├─ repository: https://github.com/sindresorhus/type-fest
@@ -9936,6 +10414,14 @@
 │  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/logkitty/node_modules/yargs-parser
 │  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/logkitty/node_modules/yargs-parser
 │  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/logkitty/node_modules/yargs-parser/LICENSE.txt
+├─ yargs-parser@20.2.9
+│  ├─ licenses: ISC
+│  ├─ repository: https://github.com/yargs/yargs-parser
+│  ├─ publisher: Ben Coe
+│  ├─ email: ben@npmjs.com
+│  ├─ dependencyPath: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/yargs-parser
+│  ├─ path: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/yargs-parser
+│  └─ licenseFile: /Users/isokol/workspace/MovieBrowser/node_modules/meow/node_modules/yargs-parser/LICENSE.txt
 ├─ yargs-parser@21.1.1
 │  ├─ licenses: ISC
 │  ├─ repository: https://github.com/yargs/yargs-parser
