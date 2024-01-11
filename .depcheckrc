@@ -1,0 +1,1 @@
+ignores: ["babel-*", "jest", "@babel/*", "@commitlint/*", "lefthook", "typescript", "commitizen"]
