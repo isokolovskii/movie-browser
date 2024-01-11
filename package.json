@@ -10,6 +10,7 @@
     "test": "jest",
     "assets": "react-native-asset",
     "postinstall": "patch-package",
+    "dependencies:audit": "improved-yarn-audit",
     "dependencies:check-updates": "ncu --enginesNode --install never --packageManager yarn --peer",
     "dependencies:upgrade-interactive": "ncu --enginesNode --packageManager yarn --peer -i"
   },
@@ -61,6 +62,7 @@
     "commitizen": "4.3.0",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "8.56.0",
+    "improved-yarn-audit": "3.0.0",
     "jest": "29.7.0",
     "lefthook": "1.5.5",
     "npm-check-updates": "16.14.12",

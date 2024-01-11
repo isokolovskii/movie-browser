@@ -5,3 +5,19 @@ prepare-commit-msg:
     commitizen:
       interactive: true
       run: LEFTHOOK=0 yarn cz --hook
+
+pre-commit:
+  parallel: true
+  commands:
+    integrity:
+      glob: 'package.json'
+      run: yarn check --integrity
+    audit:
+      glob: 'package.json'
+      run: yarn dependencies:audit
+
+post-commit:
+  parallel: true
+  commands:
+    check-updates:
+      run: yarn dependencies:check-updates
