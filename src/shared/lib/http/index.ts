@@ -61,72 +61,78 @@ type HttpMethod =
 interface HttpRequestProps {
   method: HttpMethod;
   url: string;
-  responseValidator?: {
-    validator: ZodSchema;
-    onValidationError: (error: ZodError) => void;
-  };
+  responseValidator?: ZodSchema;
 }
 
 const createHttpRequestorGenerator =
   (client: HttpRequestor) =>
-  <Request, Response, Error>({
+  <Request, Response, Error, TransformedResponse = Response>({
     method,
     url,
     responseValidator,
   }: HttpRequestProps) => {
     const requestor = client[method.toLowerCase() as Lowercase<HttpMethod>];
 
-    const $data = createStore<Response | null>(null);
+    const $data = createStore<TransformedResponse | null>(null);
     const $pending = createStore(false);
     const $refreshing = createStore(false);
     const $serverError = createStore<Error | null>(null);
     const $isServerError = $serverError.map(error => error !== null);
     const $isConnectionError = createStore(false);
     const $isNetworkError = createStore(false);
+    const $validationError = createStore<null>(null);
+    const $isValidationError = $validationError.map(error => error !== null);
 
     const requestBegin = createEvent();
     const requestRefresh = createEvent();
-    const requestSuccess = createEvent<Response | undefined>();
+    const requestSuccess = createEvent<TransformedResponse | undefined>();
     const clientError = createEvent<Error>();
     const connectionError = createEvent();
     const networkError = createEvent();
+    const validationError = createEvent();
 
     $data
       .on(requestBegin, () => null)
-      .on(requestSuccess, (_, data) => data ?? null);
+      .on(requestSuccess, (_, data) => data ?? null)
+      .on(validationError, () => null);
     $pending
       .on(requestBegin, () => true)
       .on(requestSuccess, () => false)
       .on(clientError, () => false)
       .on(connectionError, () => false)
-      .on(networkError, () => false);
+      .on(networkError, () => false)
+      .on(validationError, () => false);
     $refreshing
       .on(requestRefresh, () => true)
       .on(requestSuccess, () => false)
       .on(clientError, () => false)
       .on(connectionError, () => false)
-      .on(networkError, () => false);
+      .on(networkError, () => false)
+      .on(validationError, () => false);
     $serverError
       .on(requestBegin, () => null)
       .on(requestRefresh, () => null)
       .on(requestSuccess, () => null)
       .on(clientError, (_, error) => error)
       .on(connectionError, () => null)
-      .on(networkError, () => null);
+      .on(networkError, () => null)
+      .on(validationError, () => null);
     $isConnectionError
       .on(requestBegin, () => false)
       .on(requestRefresh, () => false)
       .on(requestSuccess, () => false)
       .on(connectionError, () => true)
       .on(clientError, () => false)
-      .on(networkError, () => false);
+      .on(networkError, () => false)
+      .on(validationError, () => false);
     $isNetworkError
       .on(requestBegin, () => false)
       .on(requestRefresh, () => false)
       .on(requestSuccess, () => false)
       .on(networkError, () => true)
       .on(connectionError, () => false)
-      .on(clientError, () => false);
+      .on(clientError, () => false)
+      .on(validationError, () => false);
 
     const request = async (params: Request, refreshing = false) => {
       if (refreshing) {
@@ -139,14 +145,15 @@ const createHttpRequestorGenerator =
 
       if (response.ok) {
         if (responseValidator) {
-          const {validator, onValidationError} = responseValidator;
-          const result = validator.safeParse(response.data);
-          if (!result.success) {
-            onValidationError(result.error);
+          const result = responseValidator.safeParse(response.data);
+          if (result.success) {
+            requestSuccess(result.data);
+          } else {
+            validationError();
           }
+        } else {
+          requestSuccess(response.data as TransformedResponse);
         }
-
-        requestSuccess(response.data);
       } else {
         switch (response.problem) {
           case 'CLIENT_ERROR':
@@ -199,5 +206,7 @@ const createHttpRequestorGenerator =
       $isServerError,
       $isConnectionError,
       $isNetworkError,
+      $validationError,
+      $isValidationError,
     };
   };

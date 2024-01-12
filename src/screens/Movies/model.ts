@@ -1,6 +1,6 @@
 import {moviesApi} from '../../entities/movies/api';
 import {createGate} from 'effector-react';
-import {sample} from 'effector';
+import {createEvent, sample} from 'effector';
 
 const {
   $data: $movies,
@@ -12,6 +12,8 @@ const {
   $serverError,
   startRequest,
   startRefresh: refresh,
+  $validationError,
+  $isValidationError,
 } = moviesApi.getPopularFilms;
 
 export const moviesScreenGate = createGate();
@@ -31,4 +33,6 @@ export {
   $isConnectionError,
   $isNetworkError,
   refresh,
+  $isValidationError,
+  $validationError,
 };

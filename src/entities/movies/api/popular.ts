@@ -1,6 +1,7 @@
 import {type ApiTypes, httpClient} from '../../../shared/api';
 import {type MovieDto, movieValidator} from './MovieDto.ts';
 import {MOVIES_ENDPOINTS} from './endpoints.ts';
+import {type moviesModel} from '../model';
 
 interface PopularMoviesRequest
   extends ApiTypes.LanguageRequestParams,
@@ -10,12 +11,10 @@ interface PopularMoviesRequest
 export const getPopularFilms = httpClient.generateRequestor<
   PopularMoviesRequest,
   ApiTypes.PaginatedResponse<MovieDto[]>,
-  ApiTypes.ApiErrorResponse
+  ApiTypes.ApiErrorResponse,
+  ApiTypes.PaginatedResponse<moviesModel.MovieModel[]>
 >({
   method: 'get',
   url: MOVIES_ENDPOINTS.popular,
-  responseValidator: {
-    validator: httpClient.validators.paginatedValidator(movieValidator),
-    onValidationError: console.error,
-  },
+  responseValidator: httpClient.validators.paginatedValidator(movieValidator),
 });

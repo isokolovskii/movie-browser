@@ -40,17 +40,7 @@ const ListRefreshControl = reflect({
 const PopularMoviesList = reflect({
   view: MovieList,
   bind: {
-    data: $movies.map(res => {
-      if (!res) {
-        return [];
-      }
-
-      return res.results.map(({title, vote_average, vote_count}) => ({
-        title,
-        rating: vote_average,
-        voteCount: vote_count,
-      }));
-    }),
+    data: $movies.map(res => (res ? res.results : [])),
     refreshControl: <ListRefreshControl />,
     loading: $pending,
   },
