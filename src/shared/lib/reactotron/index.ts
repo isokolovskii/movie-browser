@@ -9,7 +9,10 @@ if (__DEV__) {
   const {default: apisaucePlugin} = require('reactotron-apisauce');
 
   Reactotron.configure()
-    .useReactNative()
+    .useReactNative({
+      asyncStorage: false,
+      networking: false,
+    })
     .use(trackGlobalErrors())
     .use(apisaucePlugin())
     .connect();

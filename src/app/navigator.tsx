@@ -3,11 +3,13 @@ import {
   type NavigationContainerRef,
 } from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {TestScreen} from '../screens/TestScreen.tsx';
 import React from 'react';
 import {SentryRoutingInstrumentation} from '../shared/lib/sentry';
+import {navigationModel} from '../entities/navigation/model';
+import {MoviesScreen} from '../screens/Movies/ui.tsx';
 
-const TestStack = createNativeStackNavigator();
+const TestStack =
+  createNativeStackNavigator<navigationModel.RootStackParamList>();
 
 export const Navigator = () => {
   const navigationRef =
@@ -20,7 +22,10 @@ export const Navigator = () => {
   return (
     <NavigationContainer ref={navigationRef} onReady={onReady}>
       <TestStack.Navigator>
-        <TestStack.Screen name={'TestScreen'} component={TestScreen} />
+        <TestStack.Screen
+          name={navigationModel.Screens.Movies}
+          component={MoviesScreen}
+        />
       </TestStack.Navigator>
     </NavigationContainer>
   );

@@ -15,16 +15,16 @@ export const MoviePreview: React.FC<MoviePreviewProps> = ({
   return (
     <Container onPress={handlePress}>
       <Poster />
-      <Title>{title}</Title>
       <RatingContainer>
         <Rating>{rating.toFixed(2)}</Rating>
         <VoteCount>{voteCount}</VoteCount>
       </RatingContainer>
+      <Title>{title}</Title>
     </Container>
   );
 };
 
-MoviePreview.whyDidYouRender = true;
+MoviePreview.whyDidYouRender = false;
 MoviePreview.displayName = 'MoviePreview';
 
 interface MoviePreviewProps {
@@ -52,6 +52,7 @@ const Title = styled(Text, {
   marginTop: 16,
   textAlign: 'center',
   lineHeight: 24,
+  height: 48,
   attributes: {
     numberOfLines: 2,
   },
@@ -61,6 +62,7 @@ const RatingContainer = styled(View, {
   flexDirection: 'row',
   justifyContent: 'space-around',
   marginTop: 8,
+  width: '100%',
 });
 
 const Rating = styled(Text, {
