@@ -2,10 +2,6 @@ import {type ApisauceInstance, create} from 'apisauce';
 import {createEffect, createEvent, createStore, sample} from 'effector';
 import type {AxiosHeaders, Method, RawAxiosRequestHeaders} from 'axios';
 import type {ZodError, ZodSchema} from 'zod';
-import {z} from 'zod';
-
-const schema: ZodSchema = z.string();
-schema.parse(1);
 
 export const createHttpClient = ({
   baseUrl,
@@ -67,7 +63,7 @@ interface HttpRequestProps {
   url: string;
   responseValidator?: {
     validator: ZodSchema;
-    onValidationError: (error: ZodError) => {};
+    onValidationError: (error: ZodError) => void;
   };
 }
 
