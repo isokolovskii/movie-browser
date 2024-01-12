@@ -3,7 +3,13 @@ import {navigationModel} from '../../entities/navigation/model';
 import React from 'react';
 import {reflect} from '@effector/reflect';
 import {MovieList} from '../../widgets/movie-list/ui.tsx';
-import {$movies, moviesScreenGate, $refreshing, refresh} from './model.ts';
+import {
+  $movies,
+  moviesScreenGate,
+  $refreshing,
+  refresh,
+  $pending,
+} from './model.ts';
 import {useGate} from 'effector-react';
 import {RefreshControl} from '../../shared/ui';
 
@@ -46,5 +52,6 @@ const PopularMoviesList = reflect({
       }));
     }),
     refreshControl: <ListRefreshControl />,
+    loading: $pending,
   },
 });

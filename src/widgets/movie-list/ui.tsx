@@ -1,6 +1,9 @@
 import {styled} from '@fast-styles/react';
 import {FlashList, ListRenderItem} from '@shopify/flash-list';
-import {MoviePreview} from '../../features/movie-preview/ui.tsx';
+import {
+  MoviePreview,
+  MoviePreviewSkeleton,
+} from '../../features/movie-preview/ui.tsx';
 import React from 'react';
 import {type RefreshControlProps, View} from 'react-native';
 
@@ -8,7 +11,20 @@ export const MovieList: React.FunctionComponent<ListProps> = ({
   data,
   onItemPress,
   refreshControl,
+  loading,
 }) => {
+  if (loading) {
+    return (
+      <ListSkeleton>
+        {[...new Array(6)].map(() => (
+          <MoviePreviewSkeleton
+            key={`MovieItemSkeleton-${Math.random() * 500}`}
+          />
+        ))}
+      </ListSkeleton>
+    );
+  }
+
   return (
     <List
       renderItem={renderItem(onItemPress)}
@@ -28,6 +44,7 @@ interface ListProps {
     RefreshControlProps,
     string | React.JSXElementConstructor<any>
   >;
+  loading: boolean;
 }
 
 type ListItemProps = Omit<
@@ -48,6 +65,13 @@ const List = styled(FlashList<ListItemProps>, {
     },
     ItemSeparatorComponent: () => <ListSpacer />,
   },
+});
+
+const ListSkeleton = styled(View, {
+  flexDirection: 'row',
+  flexWrap: 'wrap',
+  paddingVertical: 8,
+  paddingHorizontal: 4,
 });
 
 const renderItem =
