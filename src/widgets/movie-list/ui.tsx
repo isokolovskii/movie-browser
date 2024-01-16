@@ -3,7 +3,7 @@ import {FlashList, ListRenderItem} from '@shopify/flash-list';
 import {
   MoviePreview,
   MoviePreviewSkeleton,
-} from '../../features/movie-preview/ui.tsx';
+} from '../../features/movie-preview/ui';
 import React from 'react';
 import {type RefreshControlProps, View} from 'react-native';
 
